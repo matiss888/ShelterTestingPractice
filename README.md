@@ -55,11 +55,8 @@ src/test/java/lv/bootcamp/shelter/
 
 ## Task 8: Coverage check
 
-After completing tasks 1–7:
-1. Right-click the `test` folder → **Run All Tests with Coverage**
-2. Review which lines are green (covered) vs red (not covered)
-3. Identify at least two untested branches
-4. Decide: would tests for those branches catch real bugs?
+Task 8: Animal class has low branch coverage and AnimalType enum has no branch coverage. It shows that Animal.class equal() method covering lines 43 to 51 are not tested and AnimalType lines 37 to 44 are not tested. I think for both these places tests would catch real bugs. For AnimalType line 38 there is no test confirming that a null or blank name correctly returns null. For Animal.java class on line 45 Object can be null since it is never tested, there is no way of knowing if Object which is null will return false.
+
 
 ## Dependencies
 
