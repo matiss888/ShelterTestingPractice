@@ -1,7 +1,6 @@
 package lv.bootcamp.shelter.task4;
 
 import lv.bootcamp.shelter.model.Animal;
-import net.bytebuddy.asm.Advice;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
